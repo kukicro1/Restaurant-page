@@ -1,0 +1,23 @@
+#menu {
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+#menuOffer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    align-content: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+.mealOffer {
+    border: 1px black solid;
+    width: 350px;
+    height: 350px;
+
+}

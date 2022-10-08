@@ -1,0 +1,20 @@
+#contact {
+    cursor: pointer;
+}
+
+#contactContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 1fr;
+    gap: 10px;
+
+}
+
+.contactGridContainer {
+    border: 1px solid black;
+    width: 600px;
+}
+
+#map {
+    height: 600px;
+}

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#content {
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(240, 212, 180);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 60px 1fr 100px;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.212);
+    justify-content: center;
+}
+
+#goodFood {
+    margin: 0;
+    align-self: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home{
+    cursor: pointer;
+}
+
+#homePageDiv {
+    border: 1px solid black;
+    height: 800px;
+    width: 700px;
+}
+
+#footer {
+    padding: 10px;
+    justify-self: center;
+    align-self: end;
+}
+
